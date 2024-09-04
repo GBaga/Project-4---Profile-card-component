@@ -1,0 +1,24 @@
+/* desktop screen */
+
+@media only screen and (min-width: 414px) {
+    .card {
+        height: 374px;
+        width: 350px;
+    }
+
+    .bg-pattern-top {
+        left: -250.65px;
+        top: -250px;
+        width: 978px;
+        height: 976px;
+        transform: rotate(-240deg);
+    }
+
+    .bg-pattern-bottom {
+        width: 978px;
+        height: 976px;
+        left: 850px;
+        bottom: -306.97px;
+        transform: rotate(-35deg);
+    }
+}

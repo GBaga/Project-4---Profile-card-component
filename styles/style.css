@@ -1,0 +1,142 @@
+@import url(./fonts.css);
+
+
+body {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    background: #19A1AE;
+    font-family: "Kumbh Sans";
+}
+
+main {
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 374px;
+    width: 326px;
+    background: #FFFFFF;
+    border-radius: 0.938rem;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.card img:first-child {
+    width: 100%;
+    height: 140px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card img:last-child {
+    width: 96px;
+    height: 96px;
+    border: 5px solid #FFFFFF;
+    border-radius: 100%;
+    position: relative;
+    top: calc(-96px / 2 - 5px);
+}
+
+.profile-photo {
+    height: calc(96px / 2);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    text-align: center;
+    padding-right: 4.25px;
+}
+
+.user>h2 {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6B7082;
+    margin: 0;
+}
+
+.card>h2 {
+    height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+    margin-top: 10px;
+    margin-bottom: 31px;
+}
+
+.solid {
+    width: 100%;
+    margin: 0px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 19px;
+    margin-bottom: 27px;
+}
+
+.stats-container h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+    margin: 0;
+}
+
+.stats-container h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin: 0;
+}
+
+.bg-pattern-top {
+    width: 622px;
+    height: 621px;
+    left: -350.65px;
+    top: -250px;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    transform: rotate(-220deg);
+    z-index: -1;
+    position: fixed;
+}
+
+.bg-pattern-bottom {
+    width: 622px;
+    height: 621px;
+    left: 150px;
+    bottom: -256.97px;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    transform: rotate(-35deg);
+    z-index: -1;
+    position: fixed;
+}
